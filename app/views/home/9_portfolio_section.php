@@ -22,9 +22,9 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/aa.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/aa1.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/aa.jpg" data-gall="portfolioGallery" 
+                <a href="assets/img/portfolio/aa1.jpg" data-gall="portfolioGallery" 
                 class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
@@ -33,9 +33,9 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/api.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/aa2.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/api.jpg" data-gall="portfolioGallery" 
+                <a href="assets/img/portfolio/aa2.jpg" data-gall="portfolioGallery" 
                 class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
@@ -44,9 +44,9 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/coco.jpeg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/aa3.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/coco.jpeg" data-gall="portfolioGallery" 
+                <a href="assets/img/portfolio/aa3.jpg" data-gall="portfolioGallery" 
                 class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
@@ -55,9 +55,9 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/flor.jpeg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/aa4.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/flor.jpeg" data-gall="portfolioGallery" 
+                <a href="assets/img/portfolio/aa4.jpg" data-gall="portfolioGallery" 
                 class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
@@ -66,9 +66,9 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/gato.jpeg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/aa5.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/gato.jpeg" data-gall="portfolioGallery"
+                <a href="assets/img/portfolio/aa5.jpg" data-gall="portfolioGallery"
                 class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
@@ -77,9 +77,9 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/logo-Roberto (3).jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/aa6.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/logo-Roberto (3).jpg" data-gall="portfolioGallery" 
+                <a href="assets/img/portfolio/aa6.jpg" data-gall="portfolioGallery" 
                 class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
@@ -88,9 +88,9 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/mari.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/aa7.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/mari.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/aa7.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -98,9 +98,9 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/estrada.jpeg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/aa8.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/estrada.jpeg" data-gall="portfolioGallery" 
+                <a href="assets/img/portfolio/aa8.jpg" data-gall="portfolioGallery" 
                 class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
@@ -109,16 +109,14 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/capela.jpeg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/aa9.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/capela.jpeg" data-gall="portfolioGallery" 
+                <a href="assets/img/portfolio/aa9.jpg" data-gall="portfolioGallery" 
                 class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
-
-        </div>
 
       </div>
     </section><!-- End Portfolio Section -->
