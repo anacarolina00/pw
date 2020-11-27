@@ -1,5 +1,8 @@
-  <header id="header">
+    <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu">
+      </i></button>
+    <header id="header" class="d-flex flex-column justify-content-center">
     <div class="d-flex flex-column">
+
 
       <div class="profile">
         <img src="assets/img/my_profile.jpeg" alt="" class="img-fluid rounded-circle">
@@ -17,9 +20,8 @@
           <li class="active"><a href="index.html"><i class="bx bx-home"></i> <span>Inicio</span></a></li>
           <li><a href="#about"><i class="bx bx-user"></i> <span>Sobre</span></a></li>
           <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resumo</span></a></li>
-          <li><a href="#portfolio"><i class="bx bx-book-content"></i>Portfolio</a></li>
-<!-- <li><a href="#services"><i class="bx bx-server"></i> Serviços</a></li> -->
-          <li><a href="#contact"><i class="bx bx-envelope"></i> Contatos</a></li>
+          <li><a href="#portfolio"><i class="bx bx-book-content"></i><span>Portfolio</span></a></li>
+          <li><a href="#contact"><i class="bx bx-envelope"></i><span>Contatos</span></a></li>
 
         </ul>
       </nav><!-- .nav-menu -->
