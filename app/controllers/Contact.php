@@ -1,58 +1,41 @@
 <?php
+  /**
+  * Requires the "PHP Email Form" library
+  * The "PHP Email Form" library is available only in the pro version of the template
+  * The library should be uploaded to: vendor/php-email-form/php-email-form.php
+  * For more info and help: https://bootstrapmade.com/php-email-form/
+  */
 
-class Contact extends Controller {
+  // Replace contact@example.com with your real receiving email address
+  $receiving_email_address = 'contact@example.com';
 
-   
-    // Index of the home page (localhost/home(/index))
-    public function index($param1= '', $param2= '', $param3= '') {
-        
-        // Initialize Alunos model
-        $test = $this->model('Alunos');
+  if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
+    include( $php_email_form );
+  } else {
+    die( 'Unable to load the "PHP Email Form" Library!');
+  }
 
-        // Call function from the model
-        $testData = $test->getAlunosFunction();
+  $contact = new PHP_Email_Form;
+  $contact->ajax = true;
+  
+  $contact->to = $receiving_email_address;
+  $contact->from_name = $_POST['name'];
+  $contact->from_email = $_POST['email'];
+  $contact->subject = $_POST['subject'];
 
-        $this->view('contact/index', ['alunos' => $testData]);
-    }
-    public function teste($param1= '', $param2= '', $param3= ''){
-        $test = $this->model('Alunos');
-        $alunos = $test->getAlunosForName($param2);
-        $this->view('contact/index', ['alunos' => $alunos]);
-    }
-    public function aluno($id){
-        $aluno = $this->model('Alunos');
-        $valor = $aluno->getAlunoForId($id);
-        return $valor;
-    }
-    public function adicionaAluno(){
-        $nome = $_POST["nome"];
-        $idade = $_POST["idade"];
-        $aluno = $this->model('Alunos');
-       if($aluno->createAluno([$nome,$idade]))
-       echo "cadastro executado com sucesso!!";
-    }
-    public function alteraAluno(){
-        $id = $_POST["id"];
-        $nome = $_POST["nome"];
-        $idade = $_POST["idade"];
+  // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
+  /*
+  $contact->smtp = array(
+    'host' => 'example.com',
+    'username' => 'example',
+    'password' => 'pass',
+    'port' => '587'
+  );
+  */
 
-        $aluno = $this->model('Alunos');
-       if($aluno->alterAluno([$nome,$idade,$id]))
-       echo "cadastro alterado com sucesso!!";
-    }
+  $contact->add_message( $_POST['name'], 'From');
+  $contact->add_message( $_POST['email'], 'Email');
+  $contact->add_message( $_POST['message'], 'Message', 10);
 
-    public function  formAlter($param1= '', $param2= '', $param3= ''){
-        $aluno = $this->aluno($param2);
-        $this->view('contact/form2', ['aluno' => $aluno[0]]);
-        
-    }
-    public function deleteAluno($param1= '', $param2= '', $param3= ''){
-        $id = $param2;
-        $aluno = $this->model('Alunos');
-       if($aluno->deleteAluno([$id]))
-       echo "cadastro excluido com sucesso!!";
-        
-    }
-}
-
+  echo $contact->send();
 ?>
