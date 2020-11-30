@@ -19,6 +19,7 @@
         <ul>
           <li class="active"><a href="index.html"><i class="bx bx-home"></i> <span>Inicio</span></a></li>
           <li><a href="#about"><i class="bx bx-user"></i> <span>Sobre</span></a></li>
+          <li><a href="#facts"><i class="bx bx-planet"></i> <span>Fatos</span></a></li>
           <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resumo</span></a></li>
           <li><a href="#portfolio"><i class="bx bx-book-content"></i><span>Portfolio</span></a></li>
           <li><a href="#contact"><i class="bx bx-envelope"></i><span>Contatos</span></a></li>

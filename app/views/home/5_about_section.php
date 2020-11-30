@@ -3,7 +3,7 @@
 
         <div class="section-title">
           <h2>Sobre</h2>
-          <p> Sou estudante e atualmente curso o 6° periodo de Eng. de Controle e Automação. Minha paixão por 
+          <p> Sou estudante e atualmente curso o 6° periodo de Engenharia de Controle e Automação. Minha paixão por 
             programação iniciou-se quando estudei Logica de programação a primeira vez na faculdade. </p>
         </div>
 

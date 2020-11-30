@@ -3,7 +3,7 @@
 
         <div class="section-title">
           <h2>Fatos</h2>
-          <p>Dês de quando iniciei na área já foram realizados:
+          <p>Já foram realizados:
           </p>
         </div>
 
