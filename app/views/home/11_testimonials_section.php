@@ -1,3 +1,4 @@
+
 <section id="testimonials" class="testimonials section-bg">
       <div class="container">
 
@@ -66,5 +67,7 @@
         </div>
 
       </div>
-    </section><!-- End Testimonials Section -->
+    </section>
+    
+    <!-- End Testimonials Section -->
 

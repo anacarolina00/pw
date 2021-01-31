@@ -47,4 +47,8 @@
         </div>
 
       </div>
-    </section><!-- End Facts Section -->
+    </section>
+    
+    <!-- End Facts Section -->
+
+    

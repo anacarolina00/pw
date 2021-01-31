@@ -5,8 +5,9 @@
 
 <body>
 
-    <!-- ======= Mobile nav toggle button ======= -->
-    <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+<!-- ======= Mobile nav toggle button ======= -->
+<button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i>
+</button>
 
 
   <!-- ======= 2 Header ======= -->
@@ -20,7 +21,7 @@
 -->
 
 
- <!-- ======= 4 Hero Section ======= -->
+<!-- ======= 4 Hero Section ======= -->
 <?php 
     $this->view('home/4_hero_section');
 ?>
@@ -32,10 +33,11 @@
     $this->view('home/5_about_section');
 ?>
 
-<!-- ======= 6 Facts Section ======= -->
-<?php 
+<!-- ======= 6 Facts Section ======= 
+// < ?php
     $this->view('home/6_facts_section');
 ?>
+-->
 
 <!-- ======= 7 Skills Section ======= -->
 <?php 
@@ -47,10 +49,11 @@
     $this->view('home/8_resume_section');
 ?>
 
-<!-- ======= 9 Portfolio Section ======= -->
-<?php 
+<!-- ======= 9 Portfolio Section ======= 
+// < ?php 
     $this->view('home/9_portfolio_section');
 ?>
+-->  
 
 <!-- ======= 10 Services Section ======= 
     $this->view('home/10_services_section');
@@ -62,12 +65,14 @@
 -->
 
 
-<!-- ======= 12 Contact Section ======= -->
-<?php 
+<!-- ======= 12 Contact Section ======= 
+< ?php 
     $this->view('home/12_contact_section');
 ?>   
 
-    </main><!-- End #main -->
+    </main><!-- End #main 
+-->
+
 
 <!-- ======= 13 Footer ======= -->
 <?php 
